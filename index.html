@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+
+     <!-- Script File -->
+     <script src="/Scripts/word-list.js" defer></script>
+
+     <!-- Data File -->
+     <script src="/Scripts/script.js" defer></script>
+
+     <title>Hangman Game</title>
+</head>
+
+<body>
+
+     <!-- Game Modal Section -->
+
+     <div class="game-modal">
+
+          <div class="content">
+
+               <img src="/Assets/Hangman Game Images/Victory.gif" alt="gif">
+
+               <h4>Game Over !!</h4>
+
+               <p>
+                    The Correct Word Was : <b>Rainbow</b>
+               </p>
+
+               <button class="play-again">Play Again</button>
+
+          </div>
+     </div>
+
+     <!-- Main Container -->
+
+     <div class="container">
+
+          <!-- Hangman Box Section -->
+
+          <div class="hangman-box">
+
+               <img src="/Assets/Hangman Game Images/Hangman-0.svg" alt="Hangman-img">
+
+               <h1>Hangman Game</h1>
+               <!-- <h1>Hang Developer</h1> -->
+
+          </div>
+
+          <!-- Game Box Section -->
+
+          <div class="game-box">
+
+               <ul class="word-display"></ul>
+
+               <!-- Hint Text -->
+
+               <h4 class="hint-text">
+                    Hint :
+                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b>
+               </h4>
+
+               <!-- Guesses Text -->
+
+               <h4 class="guesses-text">
+                    Incorrect Guesses :
+                    <b>0 / 6</b>
+               </h4>
+
+               <!-- Keyboard Section -->
+
+               <div class="keyboard"></div>
+
+          </div>
+
+     </div>
+</body>
+
+</html>
